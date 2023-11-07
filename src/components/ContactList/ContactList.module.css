@@ -1,4 +1,4 @@
-.contact-list-wrapper {
+/* .contact-list-wrapper {
 
     display: flex;
     flex-direction: column;
@@ -6,13 +6,14 @@
     justify-content: center;
     padding: 0;
     margin: 0;
+    margin-top: 8px;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 44px;
     border-radius: 8px;
-}
+} */
 
 .contact-list {
     display: contents;
@@ -83,10 +84,12 @@
 
 .contactListWrapper {
     border-radius: 8px;
+    margin-top: 12px;
     background-color: #fff;
     display: flex;
     justify-content: center;
     padding: 8px;
+    border: 1px solid #2196f3;
     box-shadow: rgba(44, 114, 242, 0.4) 0px 2px 4px, rgba(60, 131, 246, 0.3) 0px 7px 13px -3px, rgba(50, 112, 245, 0.2) 0px -3px 0px inset;
 
 

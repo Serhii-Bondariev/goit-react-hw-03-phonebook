@@ -12,7 +12,7 @@ const ContactList = ({ contacts, onDeleteContact }) => {
         <thead className={styles.contactTableHead}>
           <tr>
             <th>Name</th>
-            <th>Number</th>
+            <th>Phone number</th>
             <th>Options</th>
           </tr>
         </thead>
