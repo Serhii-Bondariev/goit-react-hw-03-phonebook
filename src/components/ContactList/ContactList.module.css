@@ -146,31 +146,12 @@
     background-color: transparent;
 }
 
-/* .contactDelBtn {
-    background-color: #2f80ed;
-    border-radius: 8px;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    box-shadow: rgba(1, 6, 15, 0.4) 0px 2px 4px, rgba(0, 2, 6, 0.3) 0px 7px 13px -3px, rgba(9, 22, 50, 0.2) 0px -3px 0px inset;
 
-}
 
-.contactDelBtn:hover {
-    background-color: #d32f2f;
-} */
-
-.contactDelBtn {
+.DelBtn {
     position: relative;
     padding: 8px 10px;
-    border-radius: 7px;
+    border-radius: 8px;
     border: 1px solid rgb(61, 106, 255);
     font-size: 12px;
     text-transform: uppercase;
@@ -187,21 +168,21 @@
     box-shadow: rgba(1, 6, 15, 0.4) 0px 2px 4px, rgba(0, 2, 6, 0.3) 0px 7px 13px -3px, rgba(9, 22, 50, 0.2) 0px -3px 0px inset;
 }
 
-.contactDelBtnn:hover {
-    background: rgb(255, 61, 61);
+.DelBtnn:hover {
+    background-color: rgb(255, 61, 61);
     box-shadow: 0 0 30px 5px rgba(236, 0, 0, 0.815);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 
-.contactDelBtn:hover::before {
+DelBtn:hover::before {
     -webkit-animation: sh02 0.5s 0s linear;
     -moz-animation: sh02 0.5s 0s linear;
     animation: sh02 0.5s 0s linear;
 }
 
-.contactDelBtn::before {
+.DelBtn::before {
     content: '';
     display: block;
     width: 0px;
@@ -235,8 +216,8 @@
     }
 }
 
-.contactDelBtn:active {
-    /* box-shadow: 0 0 0 0 transparent; */
+.DelBtn:active {
+    background-color: #f50a0a;
     box-shadow: rgba(1, 6, 15, 0.4) 0px 2px 4px, rgba(0, 2, 6, 0.3) 0px 7px 13px -3px, rgba(9, 22, 50, 0.2) 0px -3px 0px inset;
     -webkit-transition: box-shadow 0.2s ease-in;
     -moz-transition: box-shadow 0.2s ease-in;
